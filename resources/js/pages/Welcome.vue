@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import Default from '@/layouts/Default.vue';
-import { dashboard, login, register } from '@/routes';
-import { Head, Link } from '@inertiajs/vue3';
+import { Head } from '@inertiajs/vue3';
 </script>
 
 <template>
+    <Head title="Welcome" />
+
     <Default>
         <h1>Hwloo world</h1>
     </Default>

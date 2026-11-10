@@ -5,10 +5,15 @@ on:
     branches:
       - develop
       - main
+      - master
   pull_request:
     branches:
       - develop
       - main
+      - master
+
+permissions:
+  contents: read
 
 jobs:
   ci:
