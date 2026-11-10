@@ -105,6 +105,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Session Serialization
+    |--------------------------------------------------------------------------
+    |
+    | Sessions are serialized as JSON, which avoids PHP deserialization gadget
+    | chain attacks. Switch to "php" only if you store PHP objects in the
+    | session. Changing this value invalidates all active sessions.
+    |
+    */
+
+    'serialization' => 'json',
+
+    /*
+    |--------------------------------------------------------------------------
     | Session Sweeping Lottery
     |--------------------------------------------------------------------------
     |

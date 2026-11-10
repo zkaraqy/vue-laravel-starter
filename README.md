@@ -1,10 +1,10 @@
 # Laravel + Vue Starter Kit
 
-A Laravel 12 application with an [Inertia](https://inertiajs.com) + Vue 3 + TypeScript frontend, Tailwind CSS 4, Laravel Fortify (two-factor authentication) and Wayfinder (typed routes).
+A Laravel 13 application with an [Inertia](https://inertiajs.com) + Vue 3 + TypeScript frontend, Tailwind CSS 4, Laravel Fortify (two-factor authentication) and Wayfinder (typed routes).
 
 ## Requirements
 
-- PHP 8.2+ with the `pdo_sqlite` extension (needed by the test suite)
+- PHP 8.3+ with the `fileinfo`, `pdo_mysql` and `pdo_sqlite` extensions (`pdo_sqlite` is needed by the test suite)
 - Composer 2
 - Node.js 22+ and npm
 
